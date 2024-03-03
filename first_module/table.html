@@ -1,0 +1,82 @@
+<doctype! html>
+    <html>
+        <head>
+            <link rel="stylesheet" href="table.css">
+        </head>
+        <body>
+            <div class=header>
+                <a href="C:\labs_ck\lab_CK1.html">Основная страница </a>
+                <a href="C:\labs_ck\page2.html"> Позиционирование элементов </a>
+                <a href="C:\labs_ck\table.html"> Таблица</a>
+            </div>
+            <table>
+                <caption><h2>Мои рекомендации фильмов</h2></caption>
+                <tr>
+                    <th>Номер</th>
+                    <th>Фильм</th>
+                    <th>Режиссер</th>
+                    <th>Жанр</th>
+                    <th>Год выпуска</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Дьявол носит Prada</td>
+                    <td>Дэвид Френкель</td>
+                    <td>Комедия</td>
+                    <td>2006</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Один день</td>
+                    <td>Лоне Схерфиг</td>
+                    <td>Драма</td>
+                    <td>2011</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Mamma Mia!</td>
+                    <td>Филлида Ллойд</td>
+                    <td>Мюзикл</td>
+                    <td>2008</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Простые сложности</td>
+                    <td>Нэнси Мейерс</td>
+                    <td>Комедия</td>
+                    <td>2009</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Ешь, молись, люби</td>
+                    <td>Райан Мёрфи</td>
+                    <td>Драма</td>
+                    <td>2010</td>
+                </tr>
+            </table>
+            <fieldset>
+                <legend>Форма</legend>
+                <form id="form">
+                    <label for="number">Номер</label><br>
+                    <input type="text" id="number" name="number"><br>
+
+                    <label for="film">Фильм</label><br>
+                    <input type="text" id="film" name="film"><br>
+
+                    <label for="producer">Режиссер</label><br>
+                    <input type="text" id="producer" name="producer"><br>
+
+                    <label for="genre">Жанр</label><br>
+                    <select id="genre" name="genre">
+                        <option value="comedy">Комедия</option>
+                        <option value="drama">Драма</option>
+                        <option value="musical">Мюзикл</option>
+                    </select>
+                    <br>
+                    <label for="year">Год выпуска</label><br>
+                    <input type="text" id="year" name="year"><br><br>
+                    <input type="submit" value="Отправить" />
+                </form>
+            </fieldset>
+        </body>
+    </html>

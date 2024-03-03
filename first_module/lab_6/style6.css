@@ -1,0 +1,32 @@
+.photos{
+    margin: 20px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.card{
+    width: 500px;
+    margin: 10px;
+}
+
+.inform{
+    background-color: rgb(237, 243, 254);
+    margin: 20px;
+}
+body{
+    position:relative;
+    padding-right: 100px;
+}
+.sidebar{
+    height: 100%; 
+    width: 100px;
+    position: fixed; 
+    top: 0; 
+    right: 0;
+    background-color: #3273eb;
+}
+
+

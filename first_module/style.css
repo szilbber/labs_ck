@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(124, 178, 225);
+    color:rgb(91, 20, 232)
+}
+h1{
+    padding-left: 20px;
+    padding-right: 40px;
+}
+h2{
+    border: 2px solid;
+    margin-right:200px;
+}
+.content{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+
+.header{
+    margin: 20px;
+    padding-inline-start: 60%;
+}
+a {
+    padding: 5px;
+}
+.content-right{
+    
+    width: 400px;
+    background-color: rgb(202, 198, 250);
+    padding: 100px;
+    border-radius: 10%;
+}
+.content-left{
+    background-color: rgb(209, 229, 247);
+    padding: 40px;
+    border-radius: 10%;
+}
+
+.photo{
+    height:300px;
+    width: 400px;
+}
+
+.container{
+    background-color: rgb(202, 198, 250);
+}
+
+.block{
+    background-color: beige;
+    width: 200px;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.photoPageTwo{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container2{
+    background-color:rgb(209, 229, 247) ;
+    display: flex;
+    align-items:center;
+    height: 500px;
+}
+.block2{
+    background-color: beige;
+    width: 200px;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container3{
+    background-color: beige;
+    height: 500px;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content:space-around;
+}
+.block3{
+    background-color: rgb(202, 198, 250);
+    width: 200px;
+    height: 200px;
+}
+.BigBlock{
+    background-color: beige;
+    border:solid;
+    height: 500px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.RedBlock{
+    width: 100px;
+    height: 100px;
+    border:solid;
+    border-color: red;
+    position:absolute;
+    top: 50px;
+    left: 50px;
+}
+.GreenBlock{
+    width: 100px;
+    height: 100px;
+    border:solid;
+    border-color: green;
+    position: absolute;
+    left: 190px;
+    top: 190px;
+}
+.BlueBlock{
+    width: 100px;
+    height: 100px;
+    border:solid;
+    border-color: blue;
+    position: absolute;
+    left: 120px;
+    top: 120px;
+}
+
+.fixed{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}

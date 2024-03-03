@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(124, 178, 225);
+    color:rgb(91, 20, 232)
+}
+table{
+    width: 100%;
+}
+.header{
+    margin: 20px;
+    padding-inline-start: 60%;
+}
+a {
+    padding: 5px;
+}
+
+table, th, td{
+    border: 1px solid rgb(91, 20, 232);
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th{
+    background-color: rgb(209, 229, 247);
+    text-align: left;
+}
+
+tr:nth-child(even){
+    background-color: rgb(202, 198, 250);
+}
+tr:nth-child(odd){
+    background-color: beige;
+}
+fieldset{
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 10px;
+    border: 1px solid beige;
+}
+legend{
+    margin-left: 30%;
+    color:beige;
+}
